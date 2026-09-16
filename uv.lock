@@ -25,11 +25,11 @@ wheels = [
 
 [[package]]
 name = "golem-agent-sdk"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/60/b6/78ee20545ea6d307bb23a0d0c2465461916cafbb00a5bc2baf26068d90ba/golem_agent_sdk-0.1.0.tar.gz", hash = "sha256:5e3c18a5c63690442239fae2fc6f050a68a75eea1fa7fade9b11701fffa0ce80", size = 5876, upload-time = "2026-09-15T02:05:16.582Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c2/aa/297c1d34a233c1e15325f96bf7a4a7e8c05e7b204a524374fa9e0b128dfd/golem_agent_sdk-0.1.1.tar.gz", hash = "sha256:f8db9a78fd11df2645d4e1d5b4aa113b09611b791c80f3aa84e1202180de3872", size = 9339, upload-time = "2026-09-16T16:49:31.016Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d5/6c/d66ae5d571a785fc3dd43d496a693ba2985b74eb5e9ff8eb8dfa5642bb36/golem_agent_sdk-0.1.0-py3-none-any.whl", hash = "sha256:96c85f4b9736974ba1b2fd01e9021acbdfb186bdb7b367e91bbb87c7b4b0e5ae", size = 7627, upload-time = "2026-09-15T02:05:15.711Z" },
+    { url = "https://files.pythonhosted.org/packages/e6/94/e57e55e8c851b7c8c08db2876e808dc116e3c0b0bb9ad290175280dfaa47/golem_agent_sdk-0.1.1-py3-none-any.whl", hash = "sha256:80d025dc457ee0ffcd77ae71bb6512975ba84f322e32cd448565f54661d24385", size = 11534, upload-time = "2026-09-16T16:49:30.281Z" },
 ]
 
 [[package]]
@@ -46,7 +46,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "golem-agent-sdk", specifier = ">=0.1.0" }]
+requires-dist = [{ name = "golem-agent-sdk", specifier = ">=0.1.1" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=9.1.1" }]
