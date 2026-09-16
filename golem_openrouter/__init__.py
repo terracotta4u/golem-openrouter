@@ -4,9 +4,7 @@ import sys
 from golem import Extension, GolemError
 from golem_openrouter.openrouter import OpenRouter
 
-__all__ = ["OpenRouter", "__version__", "main", "run"]
-
-__version__ = "0.1.0"
+__all__ = ["OpenRouter", "main", "run"]
 
 
 def main() -> None:
