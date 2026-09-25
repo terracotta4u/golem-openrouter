@@ -18,3 +18,13 @@ golem serve
 ```
 
 Restart `golem serve` if it is already running so the extension inherits the key.
+
+## Usage
+
+In the Golem web UI, open **Settings → General**. Choose OpenRouter as the provider, then enter an [OpenRouter model id](https://openrouter.ai/models) for the default and fast models:
+
+```
+openai/gpt-6-luna
+anthropic/claude-opus-5.5
+z-ai/glm-5.3-prime
+```
