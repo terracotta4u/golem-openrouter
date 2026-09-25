@@ -1,6 +1,6 @@
 # golem-openrouter
 
-A Golem provider extension. It registers provider id `openrouter` and answers Golem's chat, structured, and embed callbacks by calling [OpenRouter](https://openrouter.ai).
+A Golem provider extension. `[tool.golem.provider]` declares provider id `openrouter`. Golem starts the package with `python -m golem`, which constructs `OpenRouter` and answers chat, structured, and embed callbacks by calling [OpenRouter](https://openrouter.ai).
 
 ## Setup
 

@@ -11,8 +11,9 @@ dependencies = [
     "golem-agent-sdk>=0.1.3",
 ]
 
-[project.scripts]
-golem-openrouter = "golem_openrouter:main"
+[tool.golem.provider]
+id = "openrouter"
+entrypoint = "golem_openrouter:OpenRouter"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]

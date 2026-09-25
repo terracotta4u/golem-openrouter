@@ -1,4 +1,5 @@
 import json
+import os
 import urllib.error
 import urllib.request
 from typing import Any
@@ -14,12 +15,17 @@ TITLE = "golem"
 class OpenRouter(Provider):
     def __init__(
         self,
-        api_key: str,
+        api_key: str | None = None,
         *,
         chat_url: str = CHAT_URL,
         embed_url: str = EMBED_URL,
     ) -> None:
-        self.api_key = api_key
+        if api_key is None:
+            api_key = os.environ.get("OPENROUTER_API_KEY", "")
+        key = api_key.strip()
+        if not key:
+            raise ValueError("set OPENROUTER_API_KEY")
+        self.api_key = key
         self.chat_url = chat_url
         self.embed_url = embed_url
 
